@@ -1,0 +1,141 @@
+@media screen  and (max-width: 750px) {
+	
+	#map {
+	  height: 200px;
+	}
+
+	nav {
+	  height: 60px;
+	}
+	nav h1 {
+	  padding-top: 20px;
+		font-size: 14px;
+	}
+	
+	nav h1 a {
+	  font-size: 14px;
+	  letter-spacing: 8px;
+	}
+
+	.filter-options {
+  height: 100px;
+	}
+.filter-options h2 {
+  font-size: 14px;
+  padding: 10px 0 10px;
+	}
+.filter-options select {
+ 
+  height: 48px;
+  margin: 5px;
+  padding: 0 5px;
+	}
+
+#restaurants-list {
+  padding: 0 15px 15px;
+}
+
+#restaurants-list li {
+  border: 1px solid #ccc;
+  max-width: 270px;
+  padding: 0 10px 5px;
+  letter-spacing: 0;
+  line-height: 1;
+  margin: 5px 0;
+}
+
+#restaurants-list li h1, h3 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+#restaurants-list p, h2 {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+#restaurants-list li button {
+  margin:5px;
+}
+
+/* ====================== Restaurant Details ====================== */
+body .inside {
+	line-height: 1;
+}
+.inside #map-container {
+  margin: 0;
+}
+
+.inside #map {
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+.inside #staurant-container{
+  margin-top: 10px;
+}
+
+
+#restaurant-name {
+  font-size: 14pt;
+  margin: 5px 0 5px;
+  line-height: 1;
+}
+
+#restaurant-img {
+  margin-top: 5px;
+}
+
+#restaurant-address {
+  margin: 5px;
+  font-weight: 400;
+  }
+
+
+#reviews-container h2 {
+  font-size: 14pt;
+  font-weight: 300;
+}
+
+#reviews-container {
+  padding: 0;
+  
+
+}
+
+#reviews-list {
+  margin: 0;
+  padding: 0;
+}
+
+#reviews-list li {
+  border: 1px solid #f3f3f3;
+  padding: 0 20px 20px;
+  position: relative;
+  width: 85%;
+}
+#reviews-list li p {
+  margin: 0 0 10px;
+}
+
+#reviews-list li h4 {
+  margin: 5px;
+}
+
+td {
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+
+.inside #footer {
+ padding: 25px 0;
+  width: 100%;
+  background-color: #333534;
+}
+
+}
+
+
+
+	
