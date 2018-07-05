@@ -9,6 +9,6 @@ In this project I was supported with code which had a lot of issues. I took a st
 
 1. Clone this repo
 
-2. You need to use localserver. In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 3000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000` or python -m http.server 3000
+2. You need to use localserver. In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 3000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 3000` or python -m http.server 3000
 
 3. When the server is runnig, open the project in your browser: localhost:3000
