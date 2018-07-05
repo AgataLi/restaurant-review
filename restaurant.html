@@ -24,7 +24,7 @@
       <h1 tabindex="-1"><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
+    <ul id="breadcrumb" role="navigation" aria-label="menu">
       <li><a tabindex="-1" href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -36,14 +36,14 @@
   <main id="maincontent">
     <!-- Beginning map -->
     <section title="map" tabindex="-1" id="map-container">
-      <div id="map"></div>
+      <div id="map" role="application" aria-label="map"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
     <section tabindex="0" id="restaurant-container">
       
       <img id="restaurant-img">
-      <h1 id="restaurant-name"></h1>
+      <h2 id="restaurant-name"></h1>
       
       <p tabindex="1" id="restaurant-address"></p>
       <p id="restaurant-cuisine"></p>
